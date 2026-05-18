@@ -1,6 +1,7 @@
 <?php
 include '../control/login_process.php';
 ?>
+<<<<<<< HEAD
 <html>
 <head>
     <title>Login – PC Shop</title>
@@ -37,3 +38,25 @@ include '../control/login_process.php';
 </div>
 </body>
 </html>
+=======
+
+<html>
+    <head>
+        <title>Login</title>
+    </head>
+    <body>
+        <h2>Login</h2>
+        <form action="" method="post">
+           
+            <label for="uname">Username:</label>
+            <input type="text" id="uname" name="uname" ><br><br>
+
+            <label for="pass">Password:</label>
+            <input type="password" id="pass" name="pass" ><br><br>
+
+            <input type="submit" name="login" value="Login">
+        </form>
+         <?php echo $errorMsg; ?>
+    </body>
+</html>
+>>>>>>> 2f2e17fef05c890d6197996e3e9d7f35784b4a61
